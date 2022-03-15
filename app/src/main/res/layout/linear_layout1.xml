@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#A8BEEA"
+    android:padding="50dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:src="@drawable/logo"/>
+    <EditText
+        android:id="@+id/etUsername"
+        android:drawableStart="@drawable/ic_account"
+        android:hint="@string/Username"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="clickusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:drawableStart="@drawable/ic_password"
+        android:drawableEnd="@drawable/ic_show"
+        android:onClick="clickPassword"
+        android:layout_marginTop="10dp"
+        android:hint="@string/Password"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickLogin"
+        android:text="@string/Login"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvForgetPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Lupa_Password"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:onClick="clickLupaPassword"/>
+
+    <TextView
+        android:text="@string/Create_new"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+
+
+
+
+
+</LinearLayout>

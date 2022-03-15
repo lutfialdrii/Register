@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Registrasi</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Lupa_Password">Lupa Password!</string>
+    <string name="Create_new">Buat Akun</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Konfirmasi Password</string>
+    <string name="nomorHp">Nomor Telepon</string>
+    <string name="Register">Register</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="perempuan">Perempuan</string>
+</resources>
